@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FunctionalTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-09-24T07:37:54" hostname="MANIMARAN-LP" time="0.217">
+  <properties/>
+  <testcase name="testInput1" classname="FunctionalTest" time="0.217"/>
+  <system-out><![CDATA[START --- Executing usecase from input.json -- START
+**********************************************
+              Floor 1
+Main corridor 1 LIGHT 1 : ON AC 1 : ON
+Sub corridor 1 LIGHT 1 : OFF AC 1 : ON
+Sub corridor 2 LIGHT 1 : OFF AC 1 : ON
+Power consumption is 35 units
+              Floor 2
+Main corridor 1 LIGHT 1 : ON AC 1 : ON
+Sub corridor 1 LIGHT 1 : OFF AC 1 : ON
+Sub corridor 2 LIGHT 1 : OFF AC 1 : ON
+Power consumption is 35 units
+*******************************************************
+Movement detected at Floor number 1, Corridor number SC1
+Switching on LIGHT of Floor 1, Corridor SC1
+Power consumption is 40 units
+Power consumption exceeded by 5 units
+Switching off AC of Floor 1, Corridor SC2
+              Floor 1
+Main corridor 1 LIGHT 1 : ON AC 1 : ON
+Sub corridor 1 LIGHT 1 : ON AC 1 : ON
+Sub corridor 2 LIGHT 1 : OFF AC 1 : OFF
+Power consumption is 30 units
+              Floor 2
+Main corridor 1 LIGHT 1 : ON AC 1 : ON
+Sub corridor 1 LIGHT 1 : OFF AC 1 : ON
+Sub corridor 2 LIGHT 1 : OFF AC 1 : ON
+Power consumption is 35 units
+*******************************************************
+No Movement detected at Floor number 1, Corridor id SC1
+              Floor 1
+Main corridor 1 LIGHT 1 : ON AC 1 : ON
+Sub corridor 1 LIGHT 1 : OFF AC 1 : ON
+Sub corridor 2 LIGHT 1 : OFF AC 1 : ON
+Power consumption is 35 units
+              Floor 2
+Main corridor 1 LIGHT 1 : ON AC 1 : ON
+Sub corridor 1 LIGHT 1 : OFF AC 1 : ON
+Sub corridor 2 LIGHT 1 : OFF AC 1 : ON
+Power consumption is 35 units
+*******************************************************
+Movement detected at Floor number 1, Corridor number SC2
+Switching on LIGHT of Floor 1, Corridor SC2
+Power consumption is 40 units
+Power consumption exceeded by 5 units
+Switching off AC of Floor 1, Corridor SC1
+              Floor 1
+Main corridor 1 LIGHT 1 : ON AC 1 : ON
+Sub corridor 1 LIGHT 1 : OFF AC 1 : OFF
+Sub corridor 2 LIGHT 1 : ON AC 1 : ON
+Power consumption is 30 units
+              Floor 2
+Main corridor 1 LIGHT 1 : ON AC 1 : ON
+Sub corridor 1 LIGHT 1 : OFF AC 1 : ON
+Sub corridor 2 LIGHT 1 : OFF AC 1 : ON
+Power consumption is 35 units
+*******************************************************
+No Movement detected at Floor number 1, Corridor id SC2
+              Floor 1
+Main corridor 1 LIGHT 1 : ON AC 1 : ON
+Sub corridor 1 LIGHT 1 : OFF AC 1 : ON
+Sub corridor 2 LIGHT 1 : OFF AC 1 : ON
+Power consumption is 35 units
+              Floor 2
+Main corridor 1 LIGHT 1 : ON AC 1 : ON
+Sub corridor 1 LIGHT 1 : OFF AC 1 : ON
+Sub corridor 2 LIGHT 1 : OFF AC 1 : ON
+Power consumption is 35 units
+*******************************************************
+Movement detected at Floor number 2, Corridor number SC1
+Switching on LIGHT of Floor 2, Corridor SC1
+Power consumption is 40 units
+Power consumption exceeded by 5 units
+Switching off AC of Floor 2, Corridor SC2
+              Floor 1
+Main corridor 1 LIGHT 1 : ON AC 1 : ON
+Sub corridor 1 LIGHT 1 : OFF AC 1 : ON
+Sub corridor 2 LIGHT 1 : OFF AC 1 : ON
+Power consumption is 35 units
+              Floor 2
+Main corridor 1 LIGHT 1 : ON AC 1 : ON
+Sub corridor 1 LIGHT 1 : ON AC 1 : ON
+Sub corridor 2 LIGHT 1 : OFF AC 1 : OFF
+Power consumption is 30 units
+*******************************************************
+No Movement detected at Floor number 2, Corridor id SC1
+              Floor 1
+Main corridor 1 LIGHT 1 : ON AC 1 : ON
+Sub corridor 1 LIGHT 1 : OFF AC 1 : ON
+Sub corridor 2 LIGHT 1 : OFF AC 1 : ON
+Power consumption is 35 units
+              Floor 2
+Main corridor 1 LIGHT 1 : ON AC 1 : ON
+Sub corridor 1 LIGHT 1 : OFF AC 1 : ON
+Sub corridor 2 LIGHT 1 : OFF AC 1 : ON
+Power consumption is 35 units
+*******************************************************
+Movement detected at Floor number 2, Corridor number SC2
+Switching on LIGHT of Floor 2, Corridor SC2
+Power consumption is 40 units
+Power consumption exceeded by 5 units
+Switching off AC of Floor 2, Corridor SC1
+              Floor 1
+Main corridor 1 LIGHT 1 : ON AC 1 : ON
+Sub corridor 1 LIGHT 1 : OFF AC 1 : ON
+Sub corridor 2 LIGHT 1 : OFF AC 1 : ON
+Power consumption is 35 units
+              Floor 2
+Main corridor 1 LIGHT 1 : ON AC 1 : ON
+Sub corridor 1 LIGHT 1 : OFF AC 1 : OFF
+Sub corridor 2 LIGHT 1 : ON AC 1 : ON
+Power consumption is 30 units
+*******************************************************
+No Movement detected at Floor number 2, Corridor id SC2
+              Floor 1
+Main corridor 1 LIGHT 1 : ON AC 1 : ON
+Sub corridor 1 LIGHT 1 : OFF AC 1 : ON
+Sub corridor 2 LIGHT 1 : OFF AC 1 : ON
+Power consumption is 35 units
+              Floor 2
+Main corridor 1 LIGHT 1 : ON AC 1 : ON
+Sub corridor 1 LIGHT 1 : OFF AC 1 : ON
+Sub corridor 2 LIGHT 1 : OFF AC 1 : ON
+Power consumption is 35 units
+*******************************************************
+END --- Executing usecase from input.json -- END
+********************************************
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

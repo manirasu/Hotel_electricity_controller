@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="corridor.CorridorTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2018-09-24T07:37:54" hostname="MANIMARAN-LP" time="0.001">
+  <properties/>
+  <testcase name="testCreateCorridorWithSensor" classname="corridor.CorridorTest" time="0.0"/>
+  <testcase name="testSubCorridorPowerConsumption" classname="corridor.CorridorTest" time="0.001"/>
+  <testcase name="testCreateMainCorridorWithAC" classname="corridor.CorridorTest" time="0.0"/>
+  <testcase name="testMainCorridorPowerConsumption" classname="corridor.CorridorTest" time="0.0"/>
+  <testcase name="testCreateSubCorridorWithLight" classname="corridor.CorridorTest" time="0.0"/>
+  <testcase name="testCreateSubCorridorWithAC" classname="corridor.CorridorTest" time="0.0"/>
+  <testcase name="testCreateMainCorridorWithLight" classname="corridor.CorridorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
